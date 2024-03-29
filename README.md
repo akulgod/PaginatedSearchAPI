@@ -8,17 +8,11 @@ You can check it out :)
 
 ### Built With
 
-This project is completely built in 
-<a>
-    Node.js
-</a>
-with 
-<a>
-    Express
-</a>
-<a>
-    Mongoose (MongoDB)
-</a>
+This project is completely built using 
+* Node.js
+* Express
+* Mongoose (MongoDB)
+
 
 ### Features
 
