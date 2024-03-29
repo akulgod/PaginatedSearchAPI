@@ -6,22 +6,21 @@ const Employee = require('../models/Employee');
 
 //POST API for inserting a new Employee record
 router.post('/insert/employee', async (req, res) => {
-    let createdEmployees = [];
     try {
-        const employees = Array.isArray(req.body) ? req.body : [req.body]; //This will ensure that the code will work for a single JSON as well as an array. User can add multiple entries qickly by passing an array of multiple employees
-        for (const empData of employees) {
+        const employees = Array.isArray(req.body) ? req.body : [req.body]; //This will ensure that the code will work for a single JSON as well as an array. User can add multiple entries quickly by passing an array of multiple employees
+
+        // Validating all employees before insertion
+        const validationPromises = employees.map(empData => {
             const newEmployee = new Employee(empData);
-            await newEmployee.validate()  //Validating the incoming data is correct as per employee schema
-                .then(() => {
-                    console.log('Employee Data is valid. Proceeding to create employee');
-                })
-                .catch((err) => {
-                    console.error('Employee data format is not correct. Please recheck data:', err.message);
-                });
-            createdEmployees.push(await newEmployee.save());  //Saving Employee into DB
-        }
+            return newEmployee.validate(); // Returns a promise
+        });
+        await Promise.all(validationPromises);
+
+        // Inserting all employees in a single call to the database
+        const createdEmployees = await Employee.insertMany(employees);
+
         res.status(201).json({
-            Success: "Records created successfully",
+            success: "Records created successfully",
             createdEmployees
         });   //Returning success message
     } catch (error) {
