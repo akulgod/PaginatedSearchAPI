@@ -1,0 +1,242 @@
+[
+    {
+        "_id": "1",
+        "firstName": "Alex",
+        "lastName": "Deng",
+        "position": "Director",
+        "department": "HR",
+        "salary": 20000
+    },
+    {
+        "_id": "2",
+        "firstName": "Rachel",
+        "lastName": "Green",
+        "position": "Trainer",
+        "department": "Fashion",
+        "salary": 12000
+    },
+    {
+        "_id": "3",
+        "firstName": "John",
+        "lastName": "Smith",
+        "position": "Software Engineer",
+        "department": "Engineering",
+        "salary": 25000
+    },
+    {
+        "_id": "4",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "position": "Marketing Manager",
+        "department": "Marketing",
+        "salary": 18000
+    },
+    {
+        "_id": "5",
+        "firstName": "Michael",
+        "lastName": "Brown",
+        "position": "Sales Representative",
+        "department": "Sales",
+        "salary": 15000
+    },
+    {
+        "_id": "6",
+        "firstName": "Sophia",
+        "lastName": "Lee",
+        "position": "Graphic Designer",
+        "department": "Design",
+        "salary": 14000
+    },
+    {
+        "_id": "7",
+        "firstName": "Daniel",
+        "lastName": "Miller",
+        "position": "Financial Analyst",
+        "department": "Finance",
+        "salary": 22000
+    },
+    {
+        "_id": "8",
+        "firstName": "Olivia",
+        "lastName": "Garcia",
+        "position": "Customer Service Representative",
+        "department": "Customer Service",
+        "salary": 13000
+    },
+    {
+        "_id": "9",
+        "firstName": "William",
+        "lastName": "Martinez",
+        "position": "Product Manager",
+        "department": "Product Management",
+        "salary": 28000
+    },
+    {
+        "_id": "10",
+        "firstName": "Emma",
+        "lastName": "Taylor",
+        "position": "Data Analyst",
+        "department": "Analytics",
+        "salary": 17000
+    },
+    {
+        "_id": "11",
+        "firstName": "Liam",
+        "lastName": "Anderson",
+        "position": "Operations Supervisor",
+        "department": "Operations",
+        "salary": 21000
+    },
+    {
+        "_id": "12",
+        "firstName": "Ava",
+        "lastName": "Hernandez",
+        "position": "Human Resources Coordinator",
+        "department": "HR",
+        "salary": 16000
+    },
+    {
+        "_id": "13",
+        "firstName": "Noah",
+        "lastName": "Lopez",
+        "position": "Quality Assurance Specialist",
+        "department": "Quality Assurance",
+        "salary": 19000
+    },
+    {
+        "_id": "14",
+        "firstName": "Isabella",
+        "lastName": "Moore",
+        "position": "Content Writer",
+        "department": "Content",
+        "salary": 15000
+    },
+    {
+        "_id": "15",
+        "firstName": "James",
+        "lastName": "Rivera",
+        "position": "IT Support Technician",
+        "department": "IT",
+        "salary": 17000
+    },
+    {
+        "_id": "16",
+        "firstName": "Mia",
+        "lastName": "Perez",
+        "position": "Research Scientist",
+        "department": "Research",
+        "salary": 24000
+    },
+    {
+        "_id": "17",
+        "firstName": "Benjamin",
+        "lastName": "Cook",
+        "position": "Project Manager",
+        "department": "Project Management",
+        "salary": 23000
+    },
+    {
+        "_id": "18",
+        "firstName": "Charlotte",
+        "lastName": "Collins",
+        "position": "Social Media Specialist",
+        "department": "Marketing",
+        "salary": 14000
+    },
+    {
+        "_id": "19",
+        "firstName": "Elijah",
+        "lastName": "Gonzalez",
+        "position": "Software Developer",
+        "department": "Engineering",
+        "salary": 26000
+    },
+    {
+        "_id": "20",
+        "firstName": "Amelia",
+        "lastName": "Baker",
+        "position": "Event Coordinator",
+        "department": "Events",
+        "salary": 18000
+    },
+    {
+        "_id": "21",
+        "firstName": "John",
+        "lastName": "Hancock",
+        "position": "Software Engineer",
+        "department": "Engineering",
+        "salary": 25000
+    },
+    {
+        "_id": "22",
+        "firstName": "Emily",
+        "lastName": "Collins",
+        "position": "Marketing Manager",
+        "department": "Marketing",
+        "salary": 18000
+    },
+    {
+        "_id": "23",
+        "firstName": "Monical",
+        "lastName": "Miller",
+        "position": "Sales Representative",
+        "department": "Sales",
+        "salary": 15000
+    },
+    {
+        "_id": "24",
+        "firstName": "Daniel",
+        "lastName": "Lee",
+        "position": "Graphic Designer",
+        "department": "Design",
+        "salary": 14000
+    },
+    {
+        "_id": "25",
+        "firstName": "Sophia",
+        "lastName": "Brown",
+        "position": "Financial Analyst",
+        "department": "Finance",
+        "salary": 22000
+    },
+    {
+        "_id": "26",
+        "firstName": "Dwaine",
+        "lastName": "Nesson",
+        "position": "Customer Service Head",
+        "department": "Customer Service",
+        "salary": 19000
+    },
+    {
+        "_id": "27",
+        "firstName": "Yin",
+        "lastName": "Gon",
+        "position": "Product Manager",
+        "department": "Product Management",
+        "salary": 23400
+    },
+    {
+        "_id": "28",
+        "firstName": "Emma",
+        "lastName": "Smith",
+        "position": "Senior Data Analyst",
+        "department": "Analytics",
+        "salary": 27000
+    },
+    {
+        "_id": "29",
+        "firstName": "Chris",
+        "lastName": "Hendricks",
+        "position": "Operations Dev",
+        "department": "Operations",
+        "salary": 29200
+    },
+    {
+        "_id": "30",
+        "firstName": "Taylor",
+        "lastName": "Hernandez",
+        "position": "Human Resources Coordinator",
+        "department": "HR",
+        "salary": 16000
+    }
+]

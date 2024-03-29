@@ -1,7 +1,7 @@
 {
   "name": "paginatedsearchapi",
   "version": "1.0.0",
-  "description": "A simple application made in node.js which uses REST API to implement paginated search.",
+  "description": "A simple application made in node.js which uses REST API to implement paginated search ssing an employee database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "express": "^4.19.2",
     "mongoose": "^8.2.3"
   }
 }
