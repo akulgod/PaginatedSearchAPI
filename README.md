@@ -130,15 +130,15 @@ To get all possible fields on which you can search,  go to /models/Employee.js
 
 
 ## Challenges faced
-- While trying to insert bulk data, the app was initially making a DB call for every single Employee. So, If you were trying to insert 30 employees at once, it would make 30 DB calls. 
-- This was very inefficient and a waste of resources> After a couple of tries, I was able to optimise it to make a single DB call only, no mater number of records.
-- Earlier, search was only working for complete words. For eg. If you searched 'Design', it was unable to retrieve records like 'Head Designer'
-- After tweaking the code, I was able to implement partial search using regex. So now the above example will works as expected.
+- While trying to insert bulk data, the app was initially making a DB call for every single Employee. So, If you were trying to insert 30 employees at once, it would make 30 DB calls. This was very inefficient and a waste of resources. After a couple of tries, I was able to optimise it to make a single DB call only, no matter number of records.
+- Earlier, search was only working for complete words. For eg. If you searched 'Design', it was unable to retrieve records like 'Head Designer'. After tweaking the code, I was able to implement partial search using regex. So now the above example will works as expected.
 - This task was given in the middle of a work week with close deadline, so had to manage time very efficiently.
 
 
 <!-- CONTACT -->
 ## Contact
+
+Feel free to contact me in case of any queries
 
 * Name: Aditya Kulgod
 * Email: akulgod@gmail.com
